@@ -1,0 +1,14 @@
+	$green: #3CB382;
+	$black: #384047;
+	$purple: #A975B4;
+
+	.gray { color: #909090; }
+	.green { color: $green; }
+	.purple { color: $purple; }
+
+	.bg-gray { background: #EDEDED !important; }
+
+	@import 'basscss/basscss';
+	@import 'site/site';
+	@import "site/header";
+	@import "site/footer";

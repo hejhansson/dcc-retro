@@ -1,0 +1,32 @@
+nav {
+  ul {
+    margin-top: 17px;
+    li {
+      padding-top: 16px;
+      list-style: none;
+      font-size: 13px;
+      color: $black;
+      font-weight: bold;
+      letter-spacing: 0px;
+      text-transform: uppercase;
+
+      &.right {
+        margin-top: -15px;
+      }
+    }
+  }
+}
+header {
+  width: 100%;
+  position: absolute;
+  img {
+    max-width: 140px;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.logo {
+  display: none;
+}
